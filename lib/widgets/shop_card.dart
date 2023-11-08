@@ -32,7 +32,6 @@ class ShopCard extends StatelessWidget {
                 content: Text("Kamu telah menekan tombol ${item.name}!")));
 
             if (item.name == "Tambah Produk") {
-              // TODO: Gunakan Navigator.push untuk melakukan navigasi ke MaterialPageRoute yang mencakup ShopFormPage.
               Navigator.push(context,
                   MaterialPageRoute(builder: (context) => const ShopFormPage()));
             }
